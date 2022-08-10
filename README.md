@@ -1,2 +1,2 @@
-# mern-stack-typescript
-Node with Typescript
+# CURD Application using ReactJS, NodeJS, MongoDB and Docker
+Typescript CURD application
