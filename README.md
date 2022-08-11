@@ -47,7 +47,7 @@ npm run dev
 ## Docker compose
 
  * Let’s set up the development environment with Docker Compose. First, we need to install Docker Compose on your machine [here is the link](https://docs.docker.com/compose/install/).
- * MAke sure you have started docker and docker engine(runs by linux subsystem)
+ * Make sure you have started docker and docker engine(runs by linux subsystem)
  * After installation you can use the following commands.
  
 ```
