@@ -21,6 +21,7 @@ Project is created with:
 
 ## Setup
 To run this project, install it locally using npm:
+### Run Without Docker Compose
 
 ```
 // clone the project
@@ -39,6 +40,10 @@ npm run dev
 
 ## Docker compose
 
+ * Let’s set up the development environment with Docker Compose. First, we need to install Docker Compose on your machine [here is the link](https://docs.docker.com/compose/install/).
+ * MAke sure you have started docker and docker engine(runs by linux subsystem)
+ * After installation you can start the project using below command.
+ 
 ```
 // build with no cache
 docker-compose build --no-cache
@@ -59,4 +64,4 @@ docker-compose stop
 MONGO_CONNECTION_STRING=mongodb://localhost:27017
 ```
 
-## Note
+
