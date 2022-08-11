@@ -18,6 +18,12 @@ Project is created with:
 * Typescript version: 4.5.5	
 * Docker version: 20.10.17
 
+## Service-Mongo-Communication
+
+* Since the MongoDB service name is localhost, the connection string below should be used.
+```
+MONGO_CONNECTION_STRING=mongodb://localhost:27017
+```
 
 ## Setup
 To run this project, install it locally using npm:
@@ -42,7 +48,7 @@ npm run dev
 
  * Let’s set up the development environment with Docker Compose. First, we need to install Docker Compose on your machine [here is the link](https://docs.docker.com/compose/install/).
  * MAke sure you have started docker and docker engine(runs by linux subsystem)
- * After installation you can start the project using below command.
+ * After installation you can use the following commands.
  
 ```
 // build with no cache
@@ -57,11 +63,9 @@ docker ps
 docker-compose stop
 ```
 
-## Service-Mongo-Communication
+* After docker installation use `docker-compose up` cmd to start the application, ReactJs application will launch on your browser `https://localhost:8080`.
 
-* Since the MongoDB service name is localhost, the connection string below should be used.
-```
-MONGO_CONNECTION_STRING=mongodb://localhost:27017
-```
+
+
 
 
